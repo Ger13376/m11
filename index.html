@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aviamaster | </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1598133894006-6d59b4e3e07f?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+      background-size: cover;
+      position: relative;
+    }
+
+    /* Затемнение поверх фона для читаемости текста */
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      padding: 40px 20px;
+    }
+
+    .status {
+      font-size: 2.2em;
+      line-height: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      padding: 18px 30px;
+      font-size: 1.3em;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 30px;
+    }
+
+    .btn:hover {
+      background: #fff200;
+      transform: scale(1.05);
+    }
+
+    .features {
+      margin-top: 40px;
+      font-size: 1.1em;
+      line-height: 1.6em;
+    }
+
+    .footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="status">
+      ДАННЫЙ<br />
+      🤖БОТ🤖<br />
+      НЕ РАБОТАЕТ
+    </div>
+
+    <a class="btn" href="https://t.me/minesv2hackbot" target="_blank" rel="noopener noreferrer">
+      🤖 РАБОЧИЙ БОТ 🤖
+    </a>
+
+    <div class="features">
+      <p>⚡ Сигналы с точностью до 98%</p>
+      <p>📲 Играй с телефона или ПК</p>
+      <p>✅ Работа без сбоев</p>
+    </div>
+  </div>
+</body>
+</html>
